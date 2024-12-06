@@ -1,0 +1,17 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task-tracker.js",
+  "bin":{
+    "task-cli":"./task-tracker.js"
+  },
+  "scripts": {
+    "test": "node task-tracker.js"
+  },
+  "keywords": [
+    "Task-Tracker"
+  ],
+  "author": "Gali Bhaskar",
+  "license": "ISC"
+}
