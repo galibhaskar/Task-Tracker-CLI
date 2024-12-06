@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "task-tracker.js",
-  "bin":{
-    "task-cli":"./task-tracker.js"
+  "bin": {
+    "task-cli": "./task-tracker.js"
   },
   "scripts": {
     "test": "node task-tracker.js"
@@ -13,5 +13,9 @@
     "Task-Tracker"
   ],
   "author": "Gali Bhaskar",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "uuid": "^11.0.3"
+  }
 }
